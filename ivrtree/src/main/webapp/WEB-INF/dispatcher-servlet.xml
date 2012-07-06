@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctx="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration-2.0.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
     <!--<ctx:annotation-config/>-->
     <ctx:component-scan base-package="app"/>
     <!--<mvc:annotation-driven/>-->
-    <import resource="classpath*:ivrVerboiceContext.xml"/>
     <import resource="classpath*:applicationDecisionTree.xml"/>
+    <import resource="classpath*:ivrVerboiceContext.xml"/>
+
 
 <!--    <bean id="viewResolver" class=" org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix">

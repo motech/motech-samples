@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    margin: 8px;
+}
+
+.gwt-Tree .gwt-TreeItem-selected {
+    background-color: #add8e6;
+}
+.gwt-Tree div.gwt-TreeItem {
+    margin-left: 10px;
+}
+.TextToSpeechPrompt{
+    background-image: url('images/text.png');
+    background-repeat: no-repeat;
+}
+.AudioPrompt{
+    background-image: url('images/audio.png');
+    background-repeat: no-repeat;
+}
+.DialPrompt{
+    background-image: url('images/dial.png');
+    background-repeat: no-repeat;
+}
+.gwt-HorizontalSplitPanel{
+    border-top: 1px solid #add8e6;
+}
+.topToolBar{
+    padding-left: 1em;
+}
+.DialPad{
+    font-size: large;
+}
+.DialPad .gwt-Button {
+    padding: 5px 20px;
+    font-size: x-large;
+}
+.DialButton,.HangupButton {
+    padding: 4px 12px;
+}
